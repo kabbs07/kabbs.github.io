@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43, 81, 114);
+}
+.item2{
+    order: 1;
+}
+.item1{
+    order: 2;
+}
+p{
+    color: white;
+    font-size: 30px;
+    margin-top: 1em;
+}
+button{
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 20px 20px;
+    background-color: rgb(241, 255, 49);
+    font-weight: 900;
+}
+button:hover{
+    opacity: 0.9;
+    border: 2px solid black;
+}
